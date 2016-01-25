@@ -19,7 +19,15 @@
     $.DateTimePicker.i18n["en"] = $.extend($.DateTimePicker.i18n["en"], {
 
     	language: "en",
-
+    	labels: {
+            'year': 'Y',
+            'month': 'M',
+            'day': 'D',
+            'hour': 'hour',
+            'minutes': 'min',
+            'seconds': 'sec',
+            'meridiem': ''
+      },
     	dateTimeFormat: "yyyy-MM-dd HH:mm",
     	dateFormat: "yyyy-MM-dd",
     	timeFormat: "HH:mm",
