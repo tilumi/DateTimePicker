@@ -63,9 +63,9 @@
 
     	language: "en",
 
-    	dateTimeFormat: "dd-MM-yyyy HH:mm",
-		dateFormat: "dd-MM-yyyy",
-		timeFormat: "HH:mm",
+    	dateTimeFormat: "yyyy-MM-dd HH:mm",
+        dateFormat: "yyyy-MM-dd",
+        timeFormat: "HH:mm",
 
 		shortDayNames: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
 		fullDayNames: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
