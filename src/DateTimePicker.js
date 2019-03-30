@@ -1399,11 +1399,6 @@ $.cf = {
 		{
 			var oDTP = this;
 		
-			$(document).on("click.DateTimePicker", function(e)
-			{
-				oDTP._hidePicker("");
-			});
-		
 			$(document).on("keydown.DateTimePicker", function(e)
 			{
 				if(! $('.dtpicker-compValue').is(':focus') && parseInt(e.keyCode ? e.keyCode : e.which) === 9)
